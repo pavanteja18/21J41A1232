@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+#btn {
+  border: 0;
+  padding: 10px 15px;
+  background-color: gray !important;
+  color: white;
+  border-radius: 20px;
+}
+
+#btn:hover {
+  background-color: rgb(179, 178, 178) !important;
+  color: rgb(24, 23, 23) !important;
+  cursor: pointer;
+}
