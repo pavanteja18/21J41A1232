@@ -16,7 +16,7 @@ const Products = () => {
       method: "GET",
       headers: {
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIzODc3OTIxLCJpYXQiOjE3MjM4Nzc2MjEsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImNmM2IyNmE1LWEzMzktNDJlNi04ODQzLTc5NjVjMGRhMjRjZiIsInN1YiI6InBhdmFudGVqYW1hZGhAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiZ29NYXJ0IiwiY2xpZW50SUQiOiJjZjNiMjZhNS1hMzM5LTQyZTYtODg0My03OTY1YzBkYTI0Y2YiLCJjbGllbnRTZWNyZXQiOiJDZWdpYmF6R2JuWmZ5bnp2Iiwib3duZXJOYW1lIjoiUGF2YW4iLCJvd25lckVtYWlsIjoicGF2YW50ZWphbWFkaEBnbWFpbC5jb20iLCJyb2xsTm8iOiIyMUo0MUExMjMyIn0.ITLJUQt1-xkhVRGWU6s_SiHLjOf6aKp-58o6rQxHUT0",
+          "Bearer Token-entered-here",
         "Content-Type": "application/json",
       },
     })
