@@ -5,6 +5,8 @@ const Products = () => {
   const [products, setProducts] = useState([]);
   const [company, setCompany] = useState("");
   const [category, setCategory] = useState("");
+  const [minPrice, setMinPrice] = useState(1);
+  const [maxPrice, setMaxPrice] = useState(10000);
   const [loading, setLoading] = useState(false);
 
   const handleAPI = () => {
@@ -52,6 +54,20 @@ const Products = () => {
           placeholder="Enter Product Category"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
+        />
+        <p>Min Price:</p>
+        <input
+          type="number"
+          placeholder="Min Price"
+          value={minPrice}
+          onChange={(e) => setMinPrice(e.target.value)}
+        />
+        <p>Max Price:</p>
+        <input
+          type="number"
+          placeholder="Max Price"
+          value={maxPrice}
+          onChange={(e) => setMaxPrice(e.target.value)}
         />
         <br />
         <br />
