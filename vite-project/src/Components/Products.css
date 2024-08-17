@@ -1,0 +1,23 @@
+.product-wrapper {
+  margin: 0 50px;
+  font-size: 1rem;
+}
+
+.input-wrapper {
+  text-align: center;
+}
+
+.btn {
+  margin-bottom: 40px;
+}
+
+.alt-text {
+  text-align: center;
+}
+
+.product-card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
